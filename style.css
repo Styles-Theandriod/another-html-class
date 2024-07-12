@@ -1,0 +1,62 @@
+/* Universal Selectors  */
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+/* Type selectors  */
+h2{
+    background-color: olivedrab;
+}
+
+
+.box{
+    background-color: red;
+    height:200px;
+    width:50%;
+}
+
+/* Descendant Selector  */
+.box h1{
+    color: white;
+}
+
+/* Child Selectors */
+.box > h1{
+    color: yellow;
+}
+
+/* The Attribute Selectors */
+input[type="password"]{
+    width: 20%;
+    height: 30px;
+}
+
+/* Multiple Style Rules */
+
+/* 4. MEASUREMENT UNITS */
+/* px % rem em 
+if am using width i use % */
+/* if ma using height i use px */
+/* if am using fontsize i use px  */
+
+/* 1 rem = 16px  */
+/* 1 rem = 16px  */
+/* Total 32px  */
+
+
+/* Colors Hex codes  */
+.hex{
+    /* 0 to 9 A to F  */
+    /* 6values */
+    /* 3values  */
+    /* 4values */
+    color:#500ee0;
+}
+
+/* Colors RGB RGB Values Color codes */
+.hex{
+    /* red green and blue values */
+    /* 0 to 255 */
+    color:rgb(30, 25, 255);
+}

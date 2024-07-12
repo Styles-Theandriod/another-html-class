@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>introduction to html</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Welcome to my website</h1>
+    <h1 style="color: red;text-align: center;font-family: Arial, Helvetica, sans-serif;">Welcome to my website</h1>
     <h2>Welcome to my website</h2>
     <h3>Welcome to my website</h3>
     <h4>Welcome to my website</h4>
@@ -30,13 +31,15 @@
     <br>
     <a href="mailto:emmanuelajah190@gmail.com">Send message</a>
 
+    <h1 class="hex">Hex Color codes</h1>
+
     <!-- lists in html  -->
     <!-- ordered list  -->
     <!-- unordered list -->
 
     <ol>
-        <li>Home</li>
-        <li>About</li>
+        <li id="home">Home</li>
+        <li class="About">About</li>
         <li>Contact</li>
     </ol>
 
@@ -55,6 +58,24 @@
         <li><a href="">Contact</a></li>
     </ul>
 
+    <br>
+
+    <!-- form in html  -->
+    <form action="">
+      <label for="">Name</label>
+      <input type="text" placeholder="enter your name" required>
+      <br>
+      <label for="">Email address</label>
+      <input type="email" placeholder="Enter Email address" required>
+      <br>
+      <label for="">Password</label>
+      <input type="password" placeholder="Enter password" required>
+      <br>
+      <button type="submit">Submit</button>
+      <input type="button" value="Submit">
+    </form>
+
+     <br>
     <table border="2">
       <tr>
         <th>Name</th>
@@ -73,7 +94,42 @@
     <img src="./stylesTheandroid.jpeg" alt="A guy wearing a black T-shirt" height="200" width="200">
     <br>
     <video src="./How to make a Video Game - Godot Beginner Tutorial.mp4" controls height="400" width="400" autoplay muted></video>
+
+    <div class="box">
+      <h1>This is a H1 tag inside box div</h1>
+      <div class="innerbox">
+        <h1>This is another H1 tag inside innerbox div</h1>
+      </div>
+    </div>
+
     <br>
     <audio src="./Commas _ 5starloaded.com.mp3" controls></audio>
+
+    
+
+    <!-- Block level elements in html  -->
+     <div></div>
+     <header></header>
+     <nav></nav>
+     <section></section>
+     <aside></aside>
+     <footer></footer>
+
+     <!-- introduction to css  -->
+      <!-- inline css 
+      internal css 
+      external css  -->
+      <!-- id - identification || identifier
+      class - classification || classifier -->
+
+      <style>
+        #home{
+          color: blue;
+        }
+        .About{
+          background-color: orange;
+        }
+      </style>
+
   </body>
 </html>
